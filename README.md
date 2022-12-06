@@ -1,1 +1,1 @@
-# rockPaperScissor
+JavaScript practise
