@@ -1,0 +1,63 @@
+html
+{
+    background-image: url("./images/background.jpeg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+h2
+{
+    color: red;
+}
+
+.round
+{
+    color: yellow;
+}
+
+.winner
+{
+    color: white;
+}
+
+.container
+{
+    /*border: 2px solid red;*/
+    margin: 20px 250px;
+    padding: 20px 0px;
+}
+
+.result
+{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+#playerChoiceImage, #computerChoiceImage
+{
+    border: 2px solid white;
+    width: 300px;
+    height: 300px;
+}
+
+.selection 
+{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.selection button
+{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+}

@@ -4,22 +4,38 @@
         <meta charset="UTF-8">
         <title>Rock Paper Scissor game</title>
         <script src="javascript.js" defer></script>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <h1>Rock-Paper-Scissor Game</h1>
+        <h2>{First to 5 points wins}</h2>
+
+        <div class="container">
+            <h2><p class="round">Round: 0</p></h2>
+            <div class="result">
+                <div class="player">
+                    <p class="playerChoice">Player Chooses: </p>
+                    <div id="playerChoiceImage"></div>
+                    <h2><p class="playerScore">Player Score: 0</p></h2>
+                </div>
+
+                <div class="computer">
+                    <p class="computerChoice">Computer Chooses: </p>
+                    <div id="computerChoiceImage"></div>
+                    <h2><p class="computerScore">Computer Score: 0</p></h2>
+                </div>
+            </div>
+            <h2><p class="winner">Winner of this round: </p></h2>
+        </div>
+
+
+        <h4>Choose your move:</h4>
         <div class="selection">
             <button>Rock</button>
             <button>Paper</button>
             <button>Scissor</button>
         </div>
 
-        <div class="result">
-            <p class="round">Round = 0</p>
-            <p class="playerChoice">Player Chooses: </p>
-            <p class="computerChoice">Computer Chooses: </p>
-            <p class="winner">Winner of this round: </p>
-            <p class="playerScore">Player Score: 0</p>
-            <p class="computerScore">Computer Score: 0</p>
-        </div>
     </body>
 </html>
