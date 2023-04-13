@@ -116,7 +116,7 @@ function declareWinner(winner)
             while( document.querySelector(".selection").firstChild ) 
                 document.querySelector(".selection").removeChild(document.querySelector(".selection").firstChild);
             document.querySelector('h4').innerHTML='';
-            document.querySelector('.winner').innerHTML=`Compuer won the Match`;
+            document.querySelector('.winner').innerHTML=`Computer won the Match`;
         }
     }
 }
